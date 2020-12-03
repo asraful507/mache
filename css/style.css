@@ -1,0 +1,842 @@
+/* 
+Author: Md. Asraful Islam
+Email: jisanahmedasraful@gmail.com
+Website: mdasrafulislam.com
+*/
+
+/* 
+=== Index ===
+
+1. header
+2. Fusce at          
+3. Facilisis          
+4. Ante donec          
+5. Blandit rhoncus          
+6. Placerat
+7. Footer
+
+ */
+
+/*--Global css--*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section
+{
+    padding: 0px;
+}
+
+/*--Theme Css--*/
+
+header
+{
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+
+.bannar
+{
+    background-image: url(../img/bannar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar
+{
+    padding: 25px 0px;
+}
+
+.navbar-nav
+{
+    padding-right: 100px;
+}
+
+.nav-item
+{
+    margin: 0px 10px;
+}
+
+.nav-link
+{
+    color: #fff;
+}
+
+.nav-link:hover
+{
+    color: #bb174d;
+}
+
+.nav-link.js-scroll-trigger.active 
+{
+	color: #bb174d;
+}
+
+.bannar-contact .bannar-title
+{
+    padding-top: 250px;
+    text-align: center;
+}
+
+.bannar-contact .bannar-title h3
+{
+    font-size: 35px;
+    color: #fff;
+    position: relative;
+}
+
+.bannar-contact .bannar-title h3 span
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.bannar-contact .bannar-title h3::after 
+{
+	position: absolute;
+	content: '';
+	width: 22%;
+	height: 3px;
+	top: 65px;
+	background: #bb174d;
+	left: 290px;
+}
+
+.bannar-contact .bannar-title p
+{
+    padding-top: 35px;
+    color: #fff;
+}
+
+.bannar-contact .bannar-title .show-btn
+{
+    background: #ed145b;
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 50px;
+    margin-top: 30px;
+    color: #fff;
+    transition: .5s;
+}
+
+.bannar-contact .bannar-title .show-btn:hover
+{
+    background: transparent;
+    border: 1px solid #ed145b;
+}
+
+
+/*---about us---*/
+
+.about-sec
+{
+    background-image: url(../img/mac-book-bac.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 70px;
+}
+
+.about-sec .about-title h3 
+{
+	font-size: 35px;
+	color: #7D7D7D;
+    position: relative;
+}
+
+.about-sec .about-title h3::after 
+{
+	position: absolute;
+	content: '';
+	width: 50%;
+	height: 3px;
+	top: 100px;
+	background: #ed145b;
+	left: 0px;
+}
+
+.about-sec .about-title p
+{
+    font-size: 15px;
+    padding-top: 30px;
+    color: #7D7D7D;
+}
+
+.about-sec .about-title .about-btn 
+{
+	text-decoration: none;
+	color: #ed145b;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.about-sec .about-title .about-btn:hover
+{
+    color: #7D7D7D;
+}
+
+.about-sec .about-title .about-btn .fa 
+{
+	width: 30px;
+	height: 30px;
+	border: 1px solid #ED145B;
+	border-radius: 50%;
+	margin-left: 10px;
+	padding: 6px 9px;
+}
+
+.about-sec .about-img img
+{
+    margin-bottom: -40px;
+}
+
+/*---our Service----*/
+
+.service-sec
+{
+    padding-top: 120px;
+}
+
+.service-sec .service-title h2
+{
+    text-align: center;
+    font-size: 35px;
+    color: #7D7D7D;
+    position: relative;
+}
+
+.service-sec .service-title h2::after
+{
+    position: absolute;
+	content: '';
+	width: 22%;
+	height: 3px;
+	top: 60px;
+	background: #ED145B;
+	left: 290px;
+}
+
+
+.service-sec .service-title p 
+{
+	font-size: 15px;
+	padding-top: 40px;
+	text-align: center;
+	line-height: 30px;
+    color: #7D7D7D;
+}
+
+.service-sec .row-tow
+{
+    padding: 60px 0px;
+    text-align: center;
+}
+
+.service-sec .row-tow .service-box h4 
+{
+	font-size: 18px;
+	padding-top: 20px;
+	color: #ED145B;
+}
+
+
+/*---slider----*/
+
+
+    .slider
+    {
+        position: relative;
+    }
+
+    .slide .fa
+    {
+        font-size: 30px;
+    }
+
+    .slider-title 
+    {
+        position: absolute;
+        width: 100%;
+        top: 30px;
+        text-align: center;
+        padding: 30px 350px;
+    }
+
+    .slider-title p
+    {
+        font-size: 15px;
+        color: #fff;
+        padding: 30px;
+    }
+
+    .slider-title .fa
+    {
+        font-size: 40px;
+        color: #ED145B;
+    }
+
+/*----Prices----*/
+
+.prices-sec
+{
+    background: #f4f4f4;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.prices-sec .prices-title h2
+{
+    text-align: center;
+    font-size: 35px;
+    color: #7D7D7D;
+    position: relative;
+}
+
+.prices-sec .prices-title h2::after
+{
+    position: absolute;
+	content: '';
+	width: 22%;
+	height: 3px;
+	top: 60px;
+	background: #ED145B;
+	left: 290px;
+}
+
+
+.prices-sec .prices-title p 
+{
+	font-size: 15px;
+	padding-top: 40px;
+	text-align: center;
+	line-height: 30px;
+    color: #7D7D7D;
+}
+
+.prices-sec .prices-row
+{
+    padding: 80px 0px;
+}
+
+
+.prices-sec .pricing-box
+{
+    background: #5a5a5a;
+    transition: .5s;
+}
+
+.prices-sec .pricing-box:hover
+{
+    background: #ED145B;
+}
+
+.prices-sec .pricing-box .pric-mini-box
+{
+    position: relative;
+}
+
+.prices-sec .pricing-box .pric-mini-box h4 
+{
+	font-size: 40px;
+	padding-top: 25px;
+    margin: 0px;
+	color: #fff;
+}
+
+.prices-sec .pricing-box .pric-mini-box h4 span
+{
+    font-size: 20px;
+}
+
+.prices-sec .pricing-box .pric-mini-box h5
+{
+    font-size: 18px;
+    padding-bottom: 45px;
+    color: #fff;
+}
+
+.prices-sec .pricing-box .price-btn
+{
+    background: #f4f4f4;
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+    transition: .5s;
+    position: absolute;
+    top: 125px;
+    left: 65px;
+    color: #5a5a5a;
+}
+
+.prices-sec .pricing-box .price-btn:hover
+{
+    background: #5a5a5a;
+    color: #fff;
+}
+
+.prices-sec .pricing-box .pric-list-box
+{
+    background: #fff;
+}
+
+.prices-sec .pricing-box .pric-list-box ul
+{
+    padding-top: 50px;
+}
+
+.prices-sec .pricing-box .pric-list-box ul li
+{
+    list-style-type: none;
+}
+
+.prices-sec .pricing-box .pric-list-box ul li a
+{
+    text-decoration: none;
+    line-height: 40px;
+    color: #7D7D7D;
+}
+
+.prices-sec .pricing-box .pric-list-box .list-btn
+{
+    background: #ed145b;
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 50px;
+    margin-bottom: 35px;
+    color: #fff;
+    transition: .5s;
+}
+
+.prices-sec .pricing-box .pric-list-box .list-btn:hover
+{
+    background: #f4f4f4;
+    color: #5a5a5a;
+}
+
+/*---icon-section---*/
+
+.icon-sec 
+{
+    padding: 100px 0px;
+}
+
+.icon-row-tow
+{
+    padding-top: 50px;
+}
+
+.icon-sec img
+{
+    padding-top: 5px;
+}
+
+.icon-sec .icon-title h4
+{
+    font-size: 18px;
+    color: #ed145b;
+}
+
+.icon-sec .icon-title p
+{
+    font-size: 15px;
+    color: #7D7D7D;
+}
+
+/*---join us---*/
+
+.joinus-sec
+{
+    background: #ed145b;
+    padding: 50px 0px;
+}
+
+.joinus-sec .joinus-title h3 
+{
+	font-size: 45px;
+	color: #fff;
+    margin: 0px;
+}
+
+.joinus-sec .joinus-title h3 span
+{
+	font-weight: bold;
+}
+
+.joinus-sec .join-btn 
+{
+	background: #fff;
+	padding: 10px 65px;
+	border: 0;
+	border-radius: 50px;
+	transition: .5s;
+	color: #ed145b;
+	margin-top: 10px;
+}
+
+
+/*---updates----*/
+
+.updates-sec
+{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.updates-sec .updates-title h3
+{
+    text-align: center;
+    font-size: 35px;
+    color: #7D7D7D;
+    position: relative;
+}
+
+.updates-sec .updates-title h3::after
+{
+    position: absolute;
+	content: '';
+	width: 22%;
+	height: 3px;
+	top: 60px;
+	background: #ED145B;
+	left: 290px;
+}
+
+.updates-sec .updates-title p
+{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 40px;
+    color: #7D7D7D;
+    padding-bottom: 20px;
+}
+
+.updates-row-tow
+{
+    padding-top: 40px;
+}
+
+.updates-sec .updates-box
+{
+    background: #f4f4f4;
+}
+
+.updates-sec .updates-box h5 
+{
+	padding: 20px;
+	margin: 0;
+    font-size: 16px;
+    color: #7D7D7D;
+}
+
+.updates-sec .updates-box p
+{
+    padding: 0px 25px 25px 20px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #7D7D7D
+}
+
+.updates-img-box
+{
+    position: relative;
+}
+
+.updates-opacity
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: rgb(237,20,91,0.8);
+    transform: scale(0);
+    transition: transform ease 1s;
+}
+
+.updates-opacity .fa 
+{
+	font-size: 30px;
+	color: #fff;
+	padding: 106px 161px;
+}
+
+.updates-sec .updates-box:hover .updates-opacity
+{
+    transform: scale(1);
+}
+
+.updates-sec .updates-btn
+{
+    background: #fff;
+	border: 0;
+	display: block;
+    margin: auto;
+	color: #ed145b;
+	margin-top: 60px;
+    position: relative;
+}
+
+.updates-sec .updates-btn .fa 
+{
+	position: absolute;
+	left: 35px;
+	top: 15px;
+	font-size: 30px;
+}
+
+/*---bannar tow----*/
+
+
+.bannar-tow-sec
+{
+    background-image: url(../img/show-bannar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.bannar-tow-sec .bannar-tow-title h3
+{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    font-size: 35px;
+}
+
+.bannar-tow-sec .bannar-tow-title h3::after
+{
+    position: absolute;
+	content: '';
+	width: 25%;
+	height: 3px;
+	top: 65px;
+	background: #ED145B;
+	left: 290px;
+}
+
+.bannar-tow-sec .bannar-tow-title p
+{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.bannar-tow-sec .bannar-tow-title .ban-tow-btn
+{
+    background: #ed145b;
+	padding: 10px 40px;
+	border: 0;
+	border-radius: 50px;
+	transition: .5s;
+	color: #fff;
+	margin-top: 10px;
+    margin: auto;
+    display: block;
+}
+
+.bannar-tow-sec .bannar-tow-title .ban-tow-btn:hover
+{
+    background: transparent;
+    border: 1px solid #ed145b;
+}
+
+
+/*---contact----*/
+
+.contact-sec
+{
+    padding: 50px 0px;
+}
+
+.contact-sec .contact-title h3
+{
+    margin: 0;
+    font-size: 35px;
+    color: #7D7D7D;
+    padding-top: 40px;
+}
+
+.contact-sec .contact-title h3::after
+{
+    position: absolute;
+	content: '';
+	width: 30%;
+	height: 3px;
+	top: 140px;
+	background: #ED145B;
+	left: 15px;
+}
+
+.contact-sec .contact-title p
+{
+    font-size: 15px;
+    color: #7D7D7D;
+    padding-top: 40px;
+}
+
+.contact-sec .contact-title .contact-btn
+{
+    background: #ed145b;
+	padding: 10px 40px;
+	border: 0;
+	border-radius: 50px;
+	transition: .5s;
+	color: #fff;
+	margin-top: 30px;
+}
+
+/*-- Footer --*/
+
+.footer-title p
+{
+    text-align: center;
+    font-size: 13px;
+    margin: 0px;
+    color: #fff;
+}
+
+.footer-title p a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/*---media---*/
+
+@media (max-width: 576px)
+{
+    .bannar .fa 
+    {
+	    font-size: 30px;
+	    color: #ed145b;
+	    padding-right: 15px;
+    }
+    
+    .bannar-contact .bannar-title p
+    {
+        font-size: 15px;
+    }
+    
+    .bannar img
+    {
+        padding-left: 25px;
+    }
+    
+    .bannar-contact .bannar-title
+    {
+        padding-top: 200px;
+    }
+    
+    .bannar-contact .bannar-title h3
+    {
+	    font-size: 25px;
+    }
+    
+    .bannar-contact .bannar-title h3::after 
+    {
+	    width: 30%;
+	    left: 160px;
+    }
+    
+    .about-sec .about-title .about-btn
+    {
+        margin-bottom: 50px;
+    }
+    
+    .service-sec .service-title h2::after
+    {
+        left: 175px;
+    }
+    
+    
+    .slider img
+    {
+        height: 250px;
+    }
+
+    .slider-title 
+    {
+        padding: 15px 70px;
+    }
+
+    .slider-title p
+    {
+        font-size: 10px;
+        padding: 20px;
+    }
+
+    .slider-title .fa
+    {
+        font-size: 30px;
+    }
+    
+    .prices-sec .prices-title h2::after
+    {
+        width: 25%;
+        left: 170px;
+    }
+    
+    .prices-sec .pricing-box .price-btn
+    {
+        left: 160px;
+    }
+    
+    .joinus-sec .joinus-title h3
+    {
+        font-size: 35px;
+    }
+    
+    .updates-sec .updates-title h3::after
+    {
+        width: 25%;
+        left: 170px;
+    }
+    
+    .updates-sec .updates-box
+    {
+        margin: 10px 55px;
+    }
+    
+    .bannar-tow-sec .bannar-tow-title h3::after
+    {
+        width: 30%;
+        left: 170px;
+    }
+    
+    .bannar-tow-sec .bannar-tow-title p
+    {
+        font-size: 12px;
+    }
+    
+    .contact-sec .contact-title h3
+    {
+        font-size: 30px;
+    }
+    
+    
+}
+
+
+
+
+
